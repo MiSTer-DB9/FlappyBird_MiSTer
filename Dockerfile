@@ -3,4 +3,4 @@ LABEL maintainer="theypsilon@gmail.com"
 WORKDIR /project
 ADD . /project
 RUN /opt/intelFPGA_lite/quartus/bin/quartus_sh --flow compile FlappyBird.qpf
-CMD cat /project/output_files/FlappyBird.rbf
+CMD ["cat", "/project/output_files/FlappyBird.rbf"]
