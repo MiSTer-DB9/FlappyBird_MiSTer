@@ -14,5 +14,3 @@ set_global_assignment -name VERILOG_FILE rtl/StatusChecker.v
 set_global_assignment -name VERILOG_FILE rtl/TopModule.v
 set_global_assignment -name VERILOG_FILE rtl/VGAOut.v
 set_global_assignment -name SYSTEMVERILOG_FILE FlappyBird.sv
-set_global_assignment -name VERILOG_FILE joydb9md.v
-set_global_assignment -name VERILOG_FILE joydb15.v
