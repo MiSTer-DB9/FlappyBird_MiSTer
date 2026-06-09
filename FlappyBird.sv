@@ -283,7 +283,7 @@ wire [2:0] buttons;
 wire [15:0] joyA_USB;
 
 // B A U D L R 
-wire [31:0] joyA = joydb_1ena ? (OSD_STATUS? 32'b000000 : joydb_1[5:0]) : joyA_USB;
+wire [31:0] joyA = joydb_1ena ? (OSD_STATUS? 32'b000000 : joydb_1_mapped[5:0]) : joyA_USB;
 
 
 
